@@ -7,10 +7,7 @@ const getcolor = () =>{
 
     navigator.clipboard.writeText(randomCode)
 
-    document.getElementById("btn").addEventListener(
-        "click",
-        getcolor
-    )
+    document.getElementById("btn").addEventListener("click",getcolor)
 
 }
 
